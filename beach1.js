@@ -1,3 +1,7 @@
+localStorage.setItem("button2", "goCampSpoon")
+localStorage.setItem("button1", "goCampScarf")
+localStorage.getItem("button2")
+localStorage.getItem("button1")
 
 document.getElementById("gotocampspoon").style.visibility = "hidden";
 document.getElementById("gotocampglass").style.visibility = "hidden";

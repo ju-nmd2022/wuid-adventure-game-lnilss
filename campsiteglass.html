@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="main.css" />
+    <title>Seagull Soulmates</title>
+  </head>
+  <body>
+    <div id="campsite">
+      <img
+        id="fullCampsite"
+        class="campsite-img"
+        src="campsite.png"
+        alt="A pair of sunglasses, broken glass bottle, a plastic bottle, and a spoon on the sand"
+        usemap="#spoon"
+      />
+      <map name="spoon">
+        <area
+          id="spoonRect"
+          alt="Metal Spoon"
+          title="Spoon"
+          coords="2244,2803,3378,3267"
+          shape="rect"
+        />
+        <area
+          id="glassRect"
+          alt="Glass Bottle"
+          title="Broken Glass"
+          coords="364,1099,2338,1663"
+          shape="rect"
+        />
+        <area
+          id="sunglassRect"
+          alt="Sunglasses"
+          title="Sunglasses"
+          coords="2573,488,3349,952"
+          shape="rect"
+        />
+        <area
+          id="plasticRect"
+          alt="Water Bottle"
+          title="Plastic Bottle"
+          coords="1422,1980,2914,2556"
+          shape="rect"
+        />
+      </map>
+      <p>The campsite is full of litter. Can any of these help?</p>
+      <p id="campHelp">You picked up the broken glass.</p>
+      <p id="noHelp">I don't think this is useful...</p>
+      <div>
+        <button id="gobackglass"><a href="sunresult.html">Go back to the beach</a></button>
+      </div>
+    </div>
+  </body>
+  <script src="glasscamp.js"></script>
+</html>

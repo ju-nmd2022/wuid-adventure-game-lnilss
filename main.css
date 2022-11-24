@@ -1,0 +1,132 @@
+
+* {
+  font-family: Arial, Helvetica, sans-serif;
+}
+button {
+  background-color: lightblue;
+  border-radius: 5px;
+  padding: 1em;
+  border: 0;
+}
+a:link {
+  text-decoration: none;
+  color: black;
+}
+a:visited {
+  color: black;
+}
+button:hover {
+  background-color: lightcyan;
+}
+
+/* Start Page */
+#background {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: auto;
+  padding: auto;
+  height: 100vh;
+  width: 100vh;
+}
+
+.seagull-home {
+  zoom: 10%;
+}
+
+.start-info {
+  text-align: center;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+#cowboy {
+    zoom: 10%;
+  }
+  #necklace {
+    zoom: 10%;
+  }
+
+/* Beach Location 1 */
+#beach-main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: auto;
+  padding: auto;
+  height: 100vh;
+  width: 100vh;
+}
+
+.beach-start {
+  zoom: 15%;
+}
+
+
+/* Campsite Location */
+#campsite {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: auto;
+  padding: auto;
+  height: 100vh;
+  width: 100vh;
+}
+.campsite-img {
+  zoom:10%;
+}
+#sunEnd {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: auto;
+  padding: auto;
+  height: 100vh;
+  width: 100vh;
+}
+.sunglass-complete {
+  zoom: 10%;
+}
+#scarfEnd {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: auto;
+  padding: auto;
+  height: 100vh;
+  width: 100vh;
+}
+.scarf-complete {
+  zoom: 10%;
+}
+
+#bling-ring {
+  zoom:5%;
+}
+
+#done {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: auto;
+  padding: auto;
+  height: 100vh;
+  width: 100vh;
+}
+
+.complete {
+  zoom:100%
+}

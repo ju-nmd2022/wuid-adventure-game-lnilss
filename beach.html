@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Seagull Soulmates</title>
+    <link rel="stylesheet" href="main.css" />
+  </head>
+  <body>
+    <div id="beach-main">
+      <img
+        class="beach-start"
+        src="beach1.png"
+        alt="Two seagulls, one with sunglasses and one with a scarf, as the two options"
+      />
+      <p>
+        You arrive at the beach to find two potential suitors. They have
+        different offers for you. You choose the one that appeals to you most (OK or Cancel).
+      </p>
+      <p id="response"></p>
+      <div>
+        <button onclick="sunDialogue()" id="sunButton">
+          Talk to the sunglass seagull
+        </button>
+        <button onclick="scarfDialogue()" id="scarfButton">
+          Talk to the scarf seagull
+        </button>
+        <button id="gotocampspoon"><a href="campsitespoon.html">Go to the campsite</a></button>
+        <button id="gotocampglass"><a href="campsiteglass.html">Go to the campsite</a></button>
+      </div>
+    </div>
+  </body>
+  <script src="beach1.js"></script>
+</html>

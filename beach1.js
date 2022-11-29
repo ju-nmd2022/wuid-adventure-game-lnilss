@@ -1,7 +1,3 @@
-localStorage.setItem("button2", "goCampSpoon")
-localStorage.setItem("button1", "goCampScarf")
-localStorage.getItem("button2")
-localStorage.getItem("button1")
 
 document.getElementById("gotocampspoon").style.visibility = "hidden";
 document.getElementById("gotocampglass").style.visibility = "hidden";
@@ -17,13 +13,11 @@ function scarfDialogue() {
         txt="You now have the creme brulee, but what can you eat it with?";
         document.getElementById("gotocampspoon").style.visibility = "visible";
         document.getElementById("gotocampglass").style.visibility = "hidden";
-        saveToLocalStorage();
     } 
     else {
         txt="You politely decline.";
         document.getElementById("gotocampglass").style.visibility = "hidden";
         document.getElementById("gotocampspoon").style.visibility = "hidden";
-        saveToLocalStorage();
     }
     document.getElementById("response").innerHTML = txt
 }
@@ -34,13 +28,11 @@ function sunDialogue() {
         txt="You now have the bag of crisps, but what do you open it with?";
         document.getElementById("gotocampglass").style.visibility = "visible";
         document.getElementById("gotocampspoon").style.visibility = "hidden";
-        saveToLocalStorage();
     } 
     else {
         txt="You politely decline.";
         document.getElementById("gotocampspoon").style.visibility = "hidden";
         document.getElementById("gotocampglass").style.visibility = "hidden";
-        saveToLocalStorage();
     }
     document.getElementById("response").innerHTML = txt;
 }
